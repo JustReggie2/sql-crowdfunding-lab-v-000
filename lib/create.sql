@@ -3,8 +3,8 @@ CREATE TABLE projects (
   title TEXT,
   category TEXT,
   funding_goal INTEGER,
-  start_date DATE,
-  end_date DATE
+  start_date INTEGER,
+  end_date INTEGER
 );
 
 CREATE TABLE users (
